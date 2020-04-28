@@ -1,5 +1,5 @@
 # p5-debian-firmware-custom-dell_g7_17
-Custom missing DELL G7 17 firmware for Debian GNU/Linux
+Custom missing DELL G7 17 firmware for Debian GNU/Linux.
 
 This package should fix:
 ```
@@ -20,6 +20,9 @@ W: Possible missing firmware /lib/firmware/i915/tgl_guc_35.2.0.bin for module i9
 ```
 
 You can make your own configuration based on this package. It's simple - Just modify CMakeLists.txt. =)
+
+## download release debian package
+[Download debian package here](../../releases/latest)
 
 ## build
 `$ cmake ${path_to_source} && cpack -G DEB`
